@@ -44,7 +44,12 @@ This project is a **Car Park Management System** built in C++. It allows the man
 5. Choose the program mode:  
    - `1` → Billing system  
    - `2` → Car park management  
-   - `3` → Quit  
+   - `3` → Quit
+  
+## Supported Languages
+1. English
+2. Türkçe
+3. Español
 
 ## Output Files
 - `bill.txt` → Stores billing information.  
