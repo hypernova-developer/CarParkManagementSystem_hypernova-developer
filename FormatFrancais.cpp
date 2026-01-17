@@ -175,7 +175,6 @@ void mainFunction()
 
 int main()
 {
-    // UTF-8 et prise en charge de la langue française
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
     setlocale(LC_ALL, "French");
