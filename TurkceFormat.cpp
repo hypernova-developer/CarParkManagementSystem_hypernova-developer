@@ -88,7 +88,7 @@ void mainFunction()
                     cin >> plate;
 
                     cout << "Araç otoparkta kalma süresini giriniz (X.XX formatında): " << endl;
-                    cin >> timeSpent;
+                    getline(cin, plate);
 
                     if (timeSpent <= 1.00)
                         price = 0;
