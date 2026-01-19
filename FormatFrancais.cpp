@@ -77,7 +77,7 @@ void mainFunction()
             while (true)
             {
                 cout << "Veuillez entrer la plaque d'immatriculation du véhicule :" << endl;
-                cin >> plate;
+                getline(cin, plate);
 
                 cout << "Veuillez entrer la durée de stationnement (format X.XX) :" << endl;
                 cin >> timeSpent;
